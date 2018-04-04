@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using IgrejaFCApp.ViewModels;
 
 namespace IgrejaFCApp.Views
 {
@@ -7,6 +8,7 @@ namespace IgrejaFCApp.Views
         public ViewA()
         {
             InitializeComponent();
+            BindingContext = new ViewAViewModel(null, null);
         }
     }
 }

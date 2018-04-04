@@ -9,16 +9,18 @@
 //------------------------------------------------------------------------------
 
 namespace IgrejaFCApp.Views {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\GIT\\Igreja Formosa de Cristo APP\\IgrejaFCApp\\IgrejaFCApp\\Views\\ViewA.xaml")]
     public partial class ViewA : global::Xamarin.Forms.ContentPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView lstEventos;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(ViewA));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ViewA));
+            lstEventos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "lstEventos");
         }
     }
 }

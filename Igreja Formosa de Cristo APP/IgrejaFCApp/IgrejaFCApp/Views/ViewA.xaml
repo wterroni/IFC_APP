@@ -2,13 +2,31 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="{Binding Title}"
+    Title="Agenda"
     x:Class="IgrejaFCApp.Views.ViewA"
     BackgroundImage="fundo.png">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Logout" Command="{Binding LogoutCommand}" />
-    </ContentPage.ToolbarItems>
-    <StackLayout>
-        <Label Text="{Binding Message}" />
-    </StackLayout>
+
+    <ListView x:Name="lstEventos"
+              ItemsSource="{Binding Agendalist}"
+              CachingStrategy="RecycleElement"
+              HasUnevenRows="True">
+
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Padding="5">
+                        <Label Text="{Binding DtEvento}"
+                               FontSize="Medium"
+                               TextColor="Orange"/>
+                        <Label Text="{Binding Descricao}"
+                               FontSize="Small"/>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+
 </ContentPage>

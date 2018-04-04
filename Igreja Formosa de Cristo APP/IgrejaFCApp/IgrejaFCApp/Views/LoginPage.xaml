@@ -22,7 +22,12 @@
         <StackLayout Grid.Row="1" VerticalOptions="FillAndExpand">
             <Entry Text="{Binding UserName}" Placeholder="Digite o CPF" VerticalOptions="EndAndExpand" />
             <Entry Text="{Binding Password}" IsPassword="true" Placeholder="Digite a senha" VerticalOptions="StartAndExpand" />
-            <Button Text="Submit" Command="{Binding LoginCommand}" />
+            <Button Text="Entrar" HorizontalOptions="Center" VerticalOptions="EndAndExpand"  Command="{Binding LoginCommand}"  BackgroundColor="White"/>
+            
         </StackLayout>
+
+        
+
     </Grid>
+    
 </ContentPage>
