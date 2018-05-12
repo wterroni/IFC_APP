@@ -95,3 +95,4 @@ C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\IgrejaFCApp\bin\Debug\Xamarin.Fo
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\IgrejaFCApp\obj\Debug\IgrejaFCApp.csproj.CopyComplete
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\IgrejaFCApp\obj\Debug\IgrejaFCApp.dll
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\IgrejaFCApp\obj\Debug\IgrejaFCApp.pdb
+C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\IgrejaFCApp\obj\Debug\IgrejaFCApp.csprojResolveAssemblyReference.cache

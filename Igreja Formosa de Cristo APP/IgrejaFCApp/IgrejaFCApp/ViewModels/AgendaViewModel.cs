@@ -3,13 +3,13 @@ using IgrejaFCApp.Services;
 using Prism.Commands;
 using Prism.Navigation;
 using System.Collections.ObjectModel;
-using IgrejaFCApp.Entities;
+using IgrejaFCApp.Models;
 
 namespace IgrejaFCApp.ViewModels
 {
     public class AgendaViewModel : BaseViewModel
     {
-        public ObservableCollection<Agenda> Agendalist { get; set; }
+        public ObservableCollection<AgendaModel> Agendalist { get; set; }
 
         IAuthenticationService _authenticationService { get; }
         public AgendaViewModel(INavigationService navigationService, IAuthenticationService authenticationService)
@@ -23,13 +23,13 @@ namespace IgrejaFCApp.ViewModels
 
         private void CarregaListaEventos()
         {
-            Agendalist = new ObservableCollection<Agenda>
+            Agendalist = new ObservableCollection<AgendaModel>
             {
-                new Agenda(){ DtEvento = "07/04/2018 - 19h30", Descricao = "Aniversário de 15 anos, participação Coral Kemuel" },
-                new Agenda(){ DtEvento = "08/04/2018 - 18h30", Descricao = "Aniversário de 15 anos, preleitor: Pastor João" },
-                new Agenda(){ DtEvento = "11/04/2018 - 19h30", Descricao = "Campanha: Vitória" },
-                new Agenda(){ DtEvento = "12/04/2018 - 15h00", Descricao = "Campanha: Libertação" },
-                new Agenda(){ DtEvento = "15/04/2018 - 18h30", Descricao = "Culto da Família" },
+                new AgendaModel(){ DtEvento = "07/04/2018 - 19h30", Descricao = "Aniversário de 15 anos, participação Coral Kemuel", Nome = "Aniversário de 15 anos", Banner = "Niver15.jpg"},
+                new AgendaModel(){ DtEvento = "08/04/2018 - 18h30", Descricao = "Aniversário de 15 anos, preleitor: Pastor João" },
+                new AgendaModel(){ DtEvento = "11/04/2018 - 19h30", Descricao = "Campanha: Vitória" },
+                new AgendaModel(){ DtEvento = "12/04/2018 - 15h00", Descricao = "Campanha: Libertação" },
+                new AgendaModel(){ DtEvento = "15/04/2018 - 18h30", Descricao = "Culto da Família" },
             };
         }
 

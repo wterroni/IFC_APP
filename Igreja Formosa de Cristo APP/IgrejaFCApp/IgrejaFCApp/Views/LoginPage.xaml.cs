@@ -8,7 +8,11 @@ namespace IgrejaFCApp.Views
         public LoginPage()
         {
             InitializeComponent();
-            
+            txtCPF.Completed += (sender, e) => {
+                EventoCPF();
+
+            };
+
 
         }
 

@@ -51,7 +51,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Agenda.cs" />
+    <Compile Include="Models\AgendaModel.cs" />
     <Compile Include="Helpers\Util.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IAuthenticationService.cs" />

@@ -145,3 +145,4 @@ C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\iOS\bin\iPhoneSimulator\Debug\zh
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\iOS\obj\iPhoneSimulator\Debug\IgrejaFCApp.iOS.csproj.CopyComplete
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\iOS\obj\iPhoneSimulator\Debug\HamburgerMenu.iOS.exe
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\iOS\obj\iPhoneSimulator\Debug\HamburgerMenu.iOS.pdb
+C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\iOS\bin\iPhoneSimulator\Debug\IgrejaFCApp.dll.mdb

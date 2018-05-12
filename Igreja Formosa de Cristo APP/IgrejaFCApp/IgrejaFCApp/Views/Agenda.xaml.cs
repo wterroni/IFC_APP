@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using IgrejaFCApp.ViewModels;
+using IgrejaFCApp.Models;
 
 namespace IgrejaFCApp.Views
 {
@@ -13,7 +14,7 @@ namespace IgrejaFCApp.Views
 
         private async void lstEventos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            await Navigation.PushAsync(new AgendaDetalhe());
+            await Navigation.PushAsync(new AgendaDetalhe((AgendaModel)e.SelectedItem));
         }
     }
 }
