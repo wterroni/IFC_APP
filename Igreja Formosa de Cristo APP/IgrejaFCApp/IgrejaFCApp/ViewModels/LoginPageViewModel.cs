@@ -49,7 +49,7 @@ namespace IgrejaFCApp.ViewModels
             }
             else
             {
-                await _pageDialogService.DisplayAlertAsync("Seriously???", "Don't you know Prism Rocks? Cuz that's the password, no spaces, and it doesn't matter about caps...", "I didn't read the code...");
+                await _pageDialogService.DisplayAlertAsync("Erro", "Senha inválida.", "OK");
             }
             IsBusy = false;
         }

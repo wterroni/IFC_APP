@@ -20,8 +20,8 @@
         </Grid.Resources>
 
         <StackLayout Grid.Row="1" VerticalOptions="FillAndExpand">
-            <Entry Text="{Binding UserName}" Placeholder="Digite o CPF" VerticalOptions="EndAndExpand" />
-            <Entry Text="{Binding Password}" IsPassword="true" Placeholder="Digite a senha" VerticalOptions="StartAndExpand" />
+            <Entry Text="{Binding UserName}" Placeholder="Digite o CPF" VerticalOptions="EndAndExpand" Keyboard="Numeric" x:Name="txtCPF" x:Uid="txtCPF"/>
+            <Entry Text="{Binding Password}" IsPassword="true" Placeholder="Digite a senha" VerticalOptions="StartAndExpand" x:Name="txtSenha" x:Uid="txtSenha" />
             <Button Text="Entrar" HorizontalOptions="Center" VerticalOptions="EndAndExpand"  Command="{Binding LoginCommand}"  BackgroundColor="White"/>
             
         </StackLayout>

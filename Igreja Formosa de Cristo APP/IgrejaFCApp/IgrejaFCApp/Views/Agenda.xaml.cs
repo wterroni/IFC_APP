@@ -10,5 +10,10 @@ namespace IgrejaFCApp.Views
             InitializeComponent();
             BindingContext = new AgendaViewModel(null, null);
         }
+
+        private async void lstEventos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            await Navigation.PushAsync(new AgendaDetalhe());
+        }
     }
 }

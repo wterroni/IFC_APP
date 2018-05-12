@@ -15,15 +15,13 @@ namespace IgrejaFCApp.Services
 
         public bool Login(string username, string password)
         {
-            //if(password.Equals("prismrocks", StringComparison.OrdinalIgnoreCase))
-            //{
-            //    Settings.Current.UserName = username;
-            //    return true;
-            //}
+            if (password.Equals("cristo", StringComparison.OrdinalIgnoreCase))
+            {
+                Settings.Current.UserName = username;
+                return true;
+            }
 
-            //return false;
-
-            return true;
+            return false;
         }
 
         public void Logout()

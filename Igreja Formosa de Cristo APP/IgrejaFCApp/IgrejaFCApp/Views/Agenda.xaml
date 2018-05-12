@@ -9,7 +9,8 @@
     <ListView x:Name="lstEventos"
               ItemsSource="{Binding Agendalist}"
               CachingStrategy="RecycleElement"
-              HasUnevenRows="True">
+              HasUnevenRows="True"
+              ItemSelected="lstEventos_ItemSelected">
 
 
         <ListView.ItemTemplate>
