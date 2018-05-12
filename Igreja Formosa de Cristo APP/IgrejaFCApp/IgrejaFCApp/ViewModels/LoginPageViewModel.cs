@@ -45,7 +45,7 @@ namespace IgrejaFCApp.ViewModels
             IsBusy = true;
             if(_authenticationService.Login(UserName, Password))
             {
-                await _navigationService.NavigateAsync("/Index/Navigation/ViewA?message=Glad%20you%20read%20the%20code");
+                await _navigationService.NavigateAsync("/Index/Navigation/ViewAgenda?message=Glad%20you%20read%20the%20code");
             }
             else
             {

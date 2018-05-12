@@ -37,13 +37,13 @@
     <EmbeddedResource Include="Views\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\ViewA.xaml">
+    <EmbeddedResource Include="Views\Agenda.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\ViewB.xaml">
+    <EmbeddedResource Include="Views\Financeiro.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\ViewC.xaml">
+    <EmbeddedResource Include="Views\Contato.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -61,22 +61,22 @@
     <Compile Include="Views\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ViewA.xaml.cs">
-      <DependentUpon>ViewA.xaml</DependentUpon>
+    <Compile Include="Views\Agenda.xaml.cs">
+      <DependentUpon>Agenda.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ViewB.xaml.cs">
-      <DependentUpon>ViewB.xaml</DependentUpon>
+    <Compile Include="Views\Financeiro.xaml.cs">
+      <DependentUpon>Financeiro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ViewC.xaml.cs">
-      <DependentUpon>ViewC.xaml</DependentUpon>
+    <Compile Include="Views\Contato.xaml.cs">
+      <DependentUpon>Contato.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="ViewModels\LoginPageViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
-    <Compile Include="ViewModels\ViewAViewModel.cs" />
-    <Compile Include="ViewModels\ViewBViewModel.cs" />
-    <Compile Include="ViewModels\ViewCViewModel.cs" />
+    <Compile Include="ViewModels\AgendaViewModel.cs" />
+    <Compile Include="ViewModels\FinanceiroViewModel.cs" />
+    <Compile Include="ViewModels\ContatoViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CardView, Version=1.1.1.5, Culture=neutral, processorArchitecture=MSIL">

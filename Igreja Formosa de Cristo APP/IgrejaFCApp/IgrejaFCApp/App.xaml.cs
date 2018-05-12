@@ -34,9 +34,9 @@ namespace IgrejaFCApp
             Container.RegisterTypeForNavigation<NavigationPage>( "Navigation" );
             Container.RegisterTypeForNavigation<MainPage>( "Index" );
             Container.RegisterTypeForNavigation<LoginPage>( "Login" );
-            Container.RegisterTypeForNavigation<ViewA>();
-            Container.RegisterTypeForNavigation<ViewB>();
-            Container.RegisterTypeForNavigation<ViewC>();
+            Container.RegisterTypeForNavigation<ViewAgenda>();
+            Container.RegisterTypeForNavigation<ViewFinanceiro>();
+            Container.RegisterTypeForNavigation<ViewContato>();
 
             Container.Register<IAuthenticationService, AuthenticationService>( Reuse.Singleton );
         }
