@@ -292,6 +292,8 @@ C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\obj\Debug\android\assets\S
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\obj\Debug\android\assets\System.Xml.pdb
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\obj\Debug\res\drawable\niver15.jpg
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\bin\Debug\IgrejaFCApp.Droid.dll
+C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\IgrejaFCApp\bin\Debug\IgrejaFCApp.dll
+C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\bin\Debug\IgrejaFCApp.dll.mdb
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\obj\Debug\linksrc\IgrejaFCApp.Droid.dll.mdb
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\GIT\Igreja Formosa de Cristo APP\IgrejaFCApp\Droid\obj\Debug\linksrc\IgrejaFCApp.dll.mdb
